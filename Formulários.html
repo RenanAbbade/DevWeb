@@ -1,0 +1,63 @@
+<!doctype html>  <!-- Com essa linha, eu digo ao browser que o tipo de documento é HTML -->
+
+<html> <!-- Com essa linha inicio a tag HTML -->
+
+	<head> <!--cabeçalho-->
+		<title>JaunSoftware</title>
+		<meta charset="utf-8" /><!-- tag meta usada para reconhecimento de caracteres especiais -->
+		
+
+	</head>
+
+	<body> <!--corpo do site-->
+		<h1>Formulários</h1>
+		<form> <!-- tag para criar formulários -->
+			Login: <br>
+			<input type="text" name="login" /> <br><!-- input para entrada de dados -->
+			Senha: <br>
+			<input type="password" name="senha" /> <br> <!-- type=password para esconder a senha -->
+			<input type="submit" value="Acessar" /> <!-- Type button para criar um botão, e value acessar como texto que aparece no botão -->
+
+		</form>
+		<h1> Cadastre-se</h1>
+		<form>
+			<input type="text" /><br/>
+			<input type="radio" name="sexo"/>Masculino <br/>
+			<input type="radio" name="sexo"/>Feminino <br/>
+			<!-- Utiliza-se name igual para poder escolher somente uma opção das duas dadas por Radio Button --><br/>
+
+			Interesses:<br/>
+			<input type="checkbox" > Esportes<br />
+			<input type="checkbox" > Cursos<br />
+			<input type="checkbox" > Músicas<br /><br/>
+
+			Estado: <br/>
+			<select>
+				<option>SP<option><option>MG<option><option>RN<option><option>RS<option>
+				
+				
+
+			</select>	
+			<br/>
+			<br/>
+
+			Observações: <br/>
+
+			<textarea>
+				
+			</textarea>
+			<br/>
+			<input type="submit" name="senha" value="Cadastrar" />
+			<!-- O Tipo "Submit" faz com que os dados sejam enviados para serem recuperados via linguagem de programação, com isso precisamos dar um name para guardar o Login -->
+
+
+
+
+
+		</form>	
+
+
+
+	</body>
+</html>
+
