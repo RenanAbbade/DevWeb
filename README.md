@@ -1,3 +1,2 @@
 # DevWeb
-Renan Henrique da Silva Abbade
-Curso de Desenvolvimento Web completo - UDEMY
+Arquivos do curso de Desenvolvimento Web completo - UDEMY Online Courses
