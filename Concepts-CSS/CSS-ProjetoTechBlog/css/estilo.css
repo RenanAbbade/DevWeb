@@ -1,0 +1,99 @@
+/*limpar formatações padrões dos browsers*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #f3f3f3;
+}
+
+#navegacao {
+	background-color: white;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed; /*fixar o menu */
+	width: 100%;
+	top: 0;
+}
+
+#area {
+	width: 720px;
+	margin: 0 auto; /*auto centraliza o contéudo */
+
+}
+
+#area-principal {
+	width: 720px;
+	margin: 55px auto 10px auto; /*auto centraliza o contéudo */
+	
+}
+
+
+#logo {
+	float: left; /*para o logo ficar a esquerda */
+}
+#menu {
+	float: right;
+	padding: 10px 0; /*centralizar o menu */
+}
+
+#postagem {
+	background: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+/******Formatação do menu *******/
+
+h2 {
+	color: #b9c941;
+}
+a{
+	text-decoration: none; /* Para remover as decorações do link */
+	padding: 5px 10px; /* Espaçamento entre os elemntos do menu */
+
+}
+/*Links não visitados */
+a:link {
+	color: #838383;
+}
+/*Links visitados */
+a:visited {
+	color: #838383;
+}
+/* Links Hover */
+a:hover {
+	background-color: #b9c941;
+	color: white;
+}
+/* Links Active */
+a:active {
+	color: #535353;
+}
+
+/* Classes */
+.verde {
+	color: #b9c941
+}
+.data-postagem {
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block; /*Quando quero que o display inline mude para block */
+	padding-bottom: 10px; /*espaçar a linha */
+	margin-bottom: 10px;
+}
+
+.img-postagem {
+	float: left;
+	margin: 0 10px 5px 0; /* margin do post */
+}
+
+.postado {
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+}
+

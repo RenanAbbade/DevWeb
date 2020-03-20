@@ -1,0 +1,197 @@
+/*limpar formatações padrões dos browsers*/
+* {
+	margin: 0;
+	padding: 0;
+}
+#menu {
+	background-color: #CC091A;
+	color: white;
+	border-bottom: 1px solid #d8d8d8;
+	height: 80px;
+	position: fixed; /*fixar o menu */
+	width: 100%; /*fixar o menu */
+	top: 0;
+	
+
+}
+
+#menu-bar {
+	float: right;
+	padding: 20px 0; /*centralizar o menu */
+	margin-top: 10px;
+	margin-right: 100px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+#logo {
+	font-size: 40px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	float: left;
+	padding: 10px;
+	margin-top: 5px;
+	padding: 10px 0 auto;
+	
+}
+
+
+#img-logo{
+	float: left;
+	margin-left: 80px;
+
+}
+
+.sub-menu {
+	list-style-type: none;
+	margin-top:80px;
+	border: 1px solid black;
+	font-size:20px;
+	width: 100%;
+	background: #E6E6E6;
+	position: fixed;
+	border-radius: 30px;
+
+
+}
+
+.sub-menu li{
+	list-style-type: none;
+	position: relative;
+	float: left;
+	border-right: 1 px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 28px;
+	line-height: 28px;
+	margin-left: 5px;
+}
+
+.sub-menu li a{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+
+}
+
+.sub-menu li ul{
+	position: absolute;
+	top: 28px;
+	left: -20px;
+	display: none;
+}
+
+.sub-menu li:hover ul, .menu li ul li:hover ul, .menu li.over ul, .menu li ul li.over ul {
+	display: block;
+	background: #CC091A;
+
+}
+
+.sub-menu li ul li {
+	display: block;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+}
+
+
+#pesquisa{
+	background: #E6E6E6;
+	border-style: ridge;
+	border-color: black;
+}
+
+.titulo h2{
+	width: 100%;
+	font-family:  "Cooper Black";
+	color:red;
+
+
+}
+
+#area {
+	float: left;
+	margin-left: 20px;
+	font-family:  "Cooper Black";
+	color:red;
+	font-size: 20px;
+	margin-bottom: 20px;
+	padding: 25px;
+
+
+	
+
+	
+}
+
+.img {
+	display: block;
+	background: #CC091A;
+	border:1px solid red;
+	background-color: white;
+	height: 400px;
+	width: 400px;
+
+
+}
+
+body {
+				background: white;
+			}
+		
+.clear {
+	height: 30px;
+	background-color: #CC091A;
+	clear: both;
+	margin-end: 0px;
+}
+
+.rodape {
+	background-color: #CC091A;
+	color: white;
+	border-bottom: 1px solid #d8d8d8;
+	height: 20px;
+	margin-bottom: 0px;
+}
+#postagem {
+	border:1px solid red;
+	background: #F2F2F2;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+.img-postagem {
+	float: left;
+	margin: 0 10px 5px 0; /* margin do post */
+	border-image: 5px solid black;
+	border-radius: 20px;
+}
+
+
+a{
+	text-decoration: none; /* Para remover as decorações do link */
+	padding: 5px 30px; /* Espaçamento entre os elemntos do menu */
+
+
+}
+/*Links não visitados */
+a:link {
+	color: white;
+	border-radius:3px;s
+}
+/*Links visitados */
+a:visited {
+	color: white;
+}
+/* Links Hover */
+a:hover {
+	background-color: red;
+	color: white;
+}
+/* Links Active */
+a:active {
+	color: white;
+}
